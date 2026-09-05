@@ -32,9 +32,19 @@ nav {
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 2px;
+    width: 220px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 220px;
+    height: 90px;
+    object-fit: contain;
+    display: block;
 }
 
 .nav-links a {
